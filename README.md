@@ -30,7 +30,7 @@ at the start of each script in EzCode you have to set the format (that is due to
 
 An example of a text script is:
 
-|||
+|||||||||||||||||||||||||
 
 Text
 
@@ -38,7 +38,7 @@ loop-Hello
 
 say ("Hello, World!")
 
-|||
+||||||||||||||||||||||||
 
 The EzCode contruibuters have realised that this might be too many lines, but this format truely simplifies more complex projects, especially graphical interface format files
 
