@@ -32,7 +32,9 @@ An example of a text script is:
 
 
 Text
+
 loop-Hello
+
 say ("Hello, World!")
 
 
