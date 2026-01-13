@@ -26,7 +26,7 @@ EzCode is designed for top simplicity, so while making it i say, hmm why not jus
 
 how to use the text interface format?
 
-at the start of each script in EzCode you have to set the format (that is due to an unfixable bug), to set a text interface format start the script by writing "Text", after that you jump a line or 2, and write "loop-loopname" to start a loop, anything before the loop is considered setup. To display any text you have to write  "say ("specified text")"  
+at the start of each script in EzCode you have to set the format (that is due to an unfixable bug), to set a text interface format start the script by writing "Text", after that you jump a line or 2, and write "loop-loopname" to start a loop, and doing "loop-loopname-end" ends the loop, anything before the loop is considered setup. To display any text you have to write  "say ("specified text")"  
 
 An example of a text script is:
 
@@ -38,7 +38,76 @@ loop-Hello
 
 say ("Hello, World!")
 
+loop-Hello-end
+
 ||||||||||||||||||||||||
 
 The EzCode contruibuters have realised that this might be too many lines, but this format truely simplifies more complex projects, especially graphical interface format files
 
+*Graphical Interface Format*
+
+The Graphical Interface Format was the first format made for EzCode, but how does it work? and more importantly how to use it?
+
+at the start of each script in EzCode you have to set the format (that is due to an unfixable bug), to set a text interface format start the script by writing "Grid(x, y)", after that you jump a line or 2, and write "loop-loopname" to start a loop, anything before the loop is considered setup. main function of graphical interface formats is the set grid command, to set a grid to a specific color there's a hardcoded color pallete (currently no RGB custom or hex support) to set a specific grid to a color we use the set command by writing "set (Grid[r𝑥, c𝑦] {colorcode})" the neat part is that you can set a specific 1x1 image in a grid slot instead for a hardcoded color system, how do you use it? well it's very simple, just write "set (Grid[r𝑥, c𝑦] {"image directory"})
+
+here's the color code system:
+
+"0" is black
+
+"1" is red 
+
+"2" is orange 
+
+"3" is yellow 
+
+"4" is lime 
+
+"5" is green 
+
+"6" is dark green 
+
+"7" is light blue 
+
+"8" is cyan 
+
+"9" is blue 
+
+"10" is dark blue 
+
+"11" is magenta 
+
+"12" is purple 
+
+"13" is dark pink 
+
+"14" is pink 
+
+"15"-light pink 
+
+"16"-dark gray 
+
+"15" is gray 
+
+"16" is light gray 
+
+"17" is white
+
+another fact about the graphical interface format is that it's possible to fill squares with a specific color (doesn't work for images yet) by writing "set (Grid[r𝑥1, c𝑦1, r𝑥2, c𝑦2])"
+
+the best example of use utilises all of the graphical interface format functions:
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Grid(16, 16)
+
+loop-loop
+
+set (Grid[r1, c1, r16, c16] {5})
+
+set (Grid[r6, c6] {"(C:)\users\TheNewExtremeRay\Documents\image.png"})
+
+set (Grid[r5, c6] {1}).
+
+loop-loop-end
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
