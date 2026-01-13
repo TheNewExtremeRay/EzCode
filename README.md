@@ -82,9 +82,9 @@ here's the color code system:
 
 "14" is pink 
 
-"15"-light pink 
+"15" is light pink 
 
-"16"-dark gray 
+"16" is dark gray 
 
 "15" is gray 
 
