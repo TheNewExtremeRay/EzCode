@@ -22,7 +22,7 @@ EzCode is designed for top simplicity, so while making it i say, hmm why not jus
 
 *set* is the most important command in the entirety of the engine, before we get there, let's start from the top and easy
 
-*Text Interface Format"
+*Text Interface Format*
 
 how to use the text interface format?
 
