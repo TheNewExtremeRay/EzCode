@@ -12,7 +12,7 @@ But How Do You Even Install EzCode?
 
 *step 5*: this is a very important step, open the main directory, then the Examples4EzCode folder, from there right click any of the ".ez" files and click open with, choose "browse app on this computer" and go to the directory "C:\EzCode\" there you should double click "launcher.bat". That is the file you need to open, that will open a CMD window which will then show you a window for your script execution
 
-*step 6* (optional): download the testing files for EzCode from the releases tab and open all the files, one by one to see if your installation was correct.
+*step 6* (optional): download the [testing files](https://github.com/TheNewExtremeRay/EzCode/releases/download/EzCodeMainReleases/Test.Set.zip) for EzCode from the releases tab and open all the files, one by one to see if your installation was correct.
 
 but how do you even use EzCode,
 
