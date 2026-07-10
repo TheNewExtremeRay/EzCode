@@ -1,12 +1,12 @@
 # EzCode
-a simple script engine based off of python, made for top simplicity.
+a simple script engine based off of <a href="https://www.python.org">python</a>, made for top simplicity.
 But How Do You Even Install EzCode?
 # Installation process (windows only)
-*step 1*: install python (REQUIRED DEPENDENCY), you can install python from the official website or the microsoft store (reccomended version: 3.13.x since 3.14.x is not supported yet)
+*step 1*: install <a href="https://www.python.org/ftp/python/3.14.6/python-3.14.6-amd64.exe">python</a> (REQUIRED DEPENDENCY), you can install python from the official website or the microsoft store
 
-*step 2*: install pygame (ALSO A REQUIRED DEPENDENCY), you can install pygame by: downloading python, opening powershell and type in ||pip install pygame||
+*step 2*: install <a href="https://www.pygame.org/news">pygame</a> (ALSO A REQUIRED DEPENDENCY), you can install pygame by: downloading python, opening powershell and type in ||pip install pygame||
 
-*step 3*: download the .zip file from the releases tab, please install the latest versions for the best experience
+*step 3*: download the .zip file from the releases tab, please install the [latest version](https://github.com/TheNewExtremeRay/EzCode/releases/tag/EzCodeMainReleases) for the best experience
 
 *step 4*: extract it directly on your C: drive, important note: here's how the directory should look like "C:\EzCode\main files + Examples4EzCode\secondary examples"
 
