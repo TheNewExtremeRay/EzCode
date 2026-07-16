@@ -6,7 +6,7 @@ But How Do You Even Install EzCode?
 
 *step 2*: install <a href="https://www.pygame.org/news">pygame</a> (ALSO A REQUIRED DEPENDENCY), you can install pygame by: downloading python, opening powershell and type in ||pip install pygame||
 
-*step 3*: download the .zip file from the releases tab, please install the [latest version](https://github.com/TheNewExtremeRay/EzCode/releases/tag/EzCodeMainReleases) for the best experience
+*step 3*: download the .zip file from the releases tab, please install the [latest version](https://github.com/TheNewExtremeRay/EzCode/releases/download/1.0.0/EzCode.zip) for the best experience
 
 *step 4*: extract it directly on your C: drive, important note: here's how the directory should look like "C:\EzCode\main files + Examples4EzCode\secondary examples"
 
